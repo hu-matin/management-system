@@ -1,0 +1,18 @@
+[
+  {"title":"درخواست دسترسی به گزارش‌ها","description":"نیاز به سطح دسترسی مشاهده گزارش‌های ماهانه دارم.","requester":"سارا احمدی","priority":"high","status":"new","created_at":"2026-11-14T08:20:00Z"},
+  {"title":"به‌روزرسانی اطلاعات حساب","description":"شماره تماس و اطلاعات پروفایل باید اصلاح شود.","requester":"علی محمدی","priority":"medium","status":"in_progress","created_at":"2026-11-13T10:12:00Z"},
+  {"title":"گزارش عملکرد تیم","description":"درخواست خروجی گزارش فعالیت تیم در ماه جاری.","requester":"مریم حسینی","priority":"low","status":"completed","created_at":"2026-11-12T14:40:00Z"},
+  {"title":"خطای بارگذاری فایل","description":"هنگام بارگذاری فایل PDF پیام خطا نمایش داده می‌شود.","requester":"نیما رضایی","priority":"high","status":"in_progress","created_at":"2026-11-11T07:33:00Z"},
+  {"title":"افزودن کاربر جدید","description":"درخواست ایجاد حساب برای همکار تازه‌وارد.","requester":"الهام نادری","priority":"medium","status":"new","created_at":"2026-11-10T09:05:00Z"},
+  {"title":"تغییر سطح دسترسی","description":"سطح دسترسی کاربر باید از مشاهده به ویرایش تغییر کند.","requester":"محسن کریمی","priority":"high","status":"completed","created_at":"2026-11-09T11:15:00Z"},
+  {"title":"اصلاح قالب خروجی اکسل","description":"ستون‌های خروجی Excel مطابق نیاز تیم مرتب شوند.","requester":"پریسا قاسمی","priority":"low","status":"in_progress","created_at":"2026-11-08T06:48:00Z"},
+  {"title":"پیشنهاد بهبود صفحه اصلی","description":"چیدمان کارت‌ها و بخش اعلان‌ها بازنگری شود.","requester":"محمد زمانی","priority":"medium","status":"new","created_at":"2026-11-07T13:22:00Z"},
+  {"title":"ثبت درخواست تجهیزات","description":"یک نمایشگر برای واحد پشتیبانی لازم است.","requester":"زهرا صادقی","priority":"low","status":"completed","created_at":"2026-11-06T09:56:00Z"},
+  {"title":"مشکل نمایش در موبایل","description":"جدول اطلاعات در عرض ۳۶۰ پیکسل از صفحه بیرون می‌زند.","requester":"امیر عباسی","priority":"high","status":"new","created_at":"2026-11-05T15:10:00Z"},
+  {"title":"ساخت دسته‌بندی جدید","description":"دسته‌بندی درخواست‌های داخلی به فرم اضافه شود.","requester":"آرزو نصیری","priority":"medium","status":"in_progress","created_at":"2026-11-04T10:19:00Z"},
+  {"title":"بازبینی اعلان‌های سیستم","description":"متن اعلان موفقیت برای کاربر واضح‌تر شود.","requester":"هادی مرادی","priority":"low","status":"completed","created_at":"2026-11-03T08:30:00Z"},
+  {"title":"بهبود جست‌وجوی درخواست‌ها","description":"نتیجه جست‌وجو هنگام تایپ باید به‌روز شود.","requester":"دنیا یوسفی","priority":"medium","status":"new","created_at":"2026-11-02T12:03:00Z"},
+  {"title":"دریافت گزارش فعالیت","description":"نیاز به گزارش وضعیت درخواست‌های بسته‌شده وجود دارد.","requester":"فرهاد رستمی","priority":"medium","status":"completed","created_at":"2026-11-01T16:28:00Z"},
+  {"title":"ویرایش راهنمای کاربری","description":"چند تصویر و توضیح راهنما باید به‌روزرسانی شود.","requester":"رویا سلطانی","priority":"low","status":"in_progress","created_at":"2026-10-31T07:44:00Z"},
+  {"title":"دسترسی به پنل پروژه","description":"درخواست دسترسی به بخش مدیریت پروژه برای عضو جدید.","requester":"کامران موسوی","priority":"high","status":"new","created_at":"2026-10-30T09:41:00Z"}
+]

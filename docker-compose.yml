@@ -1,0 +1,9 @@
+services:
+  mock-api:
+    build: ./mock-api
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - mock_data:/data
+volumes:
+  mock_data:
