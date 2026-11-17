@@ -14,9 +14,4 @@ export const sidebarMenuItems = [
     href: "/requests/new",
     icon: "plus",
   },
-  {
-    title: "گزارش‌ها",
-    href: "/reports",
-    icon: "reports",
-  },
 ] as const;
