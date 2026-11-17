@@ -5,6 +5,7 @@ import { ClipboardList, FilePlus2, Clock3, CircleCheck } from "lucide-react";
 import { Large, P, Small } from "@/components/Ui/typography/Typography";
 import useDashboardStats from "../hooks/useDashboardStats";
 import type { DashboardStats as DashboardStatsType } from "../types/dashboard";
+import type { RequestStatus } from "@/features/requests/types/request";
 
 const statItems: {
   title: string;
@@ -43,7 +44,15 @@ const statItems: {
   },
 ];
 
-export default function DashboardStats() {
+interface DashboardStatsProps {
+  selectedStatus: RequestStatus | null;
+  onSelect: (status: RequestStatus | null) => void;
+}
+
+export default function DashboardStats({
+  selectedStatus,
+  onSelect,
+}: DashboardStatsProps) {
   const { stats, loading, error, refetch } = useDashboardStats();
 
   if (loading) {
@@ -78,11 +87,26 @@ export default function DashboardStats() {
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
       {statItems.map((stat) => {
         const Icon = stat.icon;
+        const isSelected =
+          stat.key === "total"
+            ? selectedStatus === null
+            : selectedStatus === stat.key;
 
         return (
-          <div
+          <button
             key={stat.key}
-            className="rounded-2xl border border-[#E5ECE8] bg-[#FCFDFC] p-5 transition duration-200 hover:-translate-y-1 hover:shadow-md"
+            type="button"
+            aria-pressed={isSelected}
+            onClick={() =>
+              onSelect(
+                stat.key === "total" ? null : (stat.key as RequestStatus),
+              )
+            }
+            className={`rounded-2xl bg-[#FCFDFC] p-5 text-right transition duration-200 hover:-translate-y-1 hover:shadow-md ${
+              isSelected
+                ? "border-2 border-[#287C68] shadow-sm"
+                : "border border-[#E5ECE8]"
+            }`}
           >
             <div className="flex items-center justify-between">
               <Small className="font-medium text-[#84938C]">{stat.title}</Small>
@@ -99,7 +123,7 @@ export default function DashboardStats() {
             </Large>
 
             <P className="mt-2 text-xs text-[#84938C]">{stat.description}</P>
-          </div>
+          </button>
         );
       })}
     </div>

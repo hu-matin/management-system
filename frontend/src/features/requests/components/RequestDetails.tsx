@@ -60,7 +60,7 @@ export default function RequestDetails({ id }: RequestDetailsProps) {
     return (
       <div className="rounded-2xl border border-[#E5ECE8] bg-[#FCFDFC] p-5 text-center sm:p-8">
         <P className="mb-4 text-[#D65B5B]">
-          درخواست موردنظر پیدا نشد یا دریافت اطلاعات با خطا مواجه شد.
+         دریافت اطلاعات با خطا مواجه شد.
         </P>
 
         <Link
